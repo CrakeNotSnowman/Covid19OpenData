@@ -1,0 +1,32 @@
+# Local applications
+*.log
+logs/
+.ipynb_checkpoints/
+*.html
+
+# Custom 
+full_genomic_seqs/data/*.fasta
+protein_Analysis/data/*.zip
+
+# Pre defined
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
